@@ -1,0 +1,50 @@
+.main-view {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portrait-section {
+    width: 95%;
+    margin-top: 15px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.portrait-container {
+    height: 30%;
+}
+
+.tableau {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.portrait-details {
+    margin-left: 8px;
+}
+
+.portrait-name {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 32px;
+}
+
+.portrait-specs {
+    margin-top: 0;
+    font-size: 16px;
+}
+
+.portrait-description {
+    margin-right: 8px;
+    margin-bottom: 0;
+}
+
+.audio-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+

@@ -1,0 +1,85 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: black;
+}
+
+.logo-picture {
+    height: 60px;
+    margin-left: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.navbar-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+}
+
+.navbar-links li a:hover {
+    color: #b4b4b4;
+}
+
+.toggle-button {
+    position: absolute;
+    top: 1.20rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 35px;
+    height: 25px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #001ea7;
+    border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+    .toggle-button {
+        display: flex;
+    }
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-links ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar-links li {
+        text-align: center;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+
+.navbar-links.active {
+display: flex}
+}
